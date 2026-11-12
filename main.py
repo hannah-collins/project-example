@@ -1,6 +1,15 @@
 from drafter import *
 from dataclasses import dataclass
-
+set_website_title("Hannah's Counter")
+set_site_information(
+    author="Hannah Collins",
+    description="Clicker",
+    sources="",
+    planning="",
+    links=[""]
+)
+hide_debug_information()
+set_website_framed(False)
 
 @dataclass
 class State:
